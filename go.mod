@@ -21,7 +21,7 @@ require (
 	open-cluster-management.io/addon-framework v0.9.3
 	open-cluster-management.io/config-policy-controller v0.14.1-0.20240702161045-fb3b07d73236
 	open-cluster-management.io/governance-policy-propagator v0.14.1-0.20240702153215-f22f0f2fb413
-	sigs.k8s.io/controller-runtime v0.17.5
+	sigs.k8s.io/controller-runtime v0.20.3
 )
 
 require (
