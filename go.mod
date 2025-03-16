@@ -1,6 +1,8 @@
 module open-cluster-management.io/governance-policy-framework-addon
 
-go 1.22.0
+go 1.23.0
+
+toolchain go1.23.7
 
 require (
 	github.com/go-logr/logr v1.4.2
@@ -12,7 +14,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stolostron/go-log-utils v0.1.2
 	github.com/stolostron/kubernetes-dependency-watches v0.8.1
-	golang.org/x/mod v0.17.0
+	golang.org/x/mod v0.24.0
 	k8s.io/api v0.29.5
 	k8s.io/apiextensions-apiserver v0.29.5
 	k8s.io/apimachinery v0.29.5
